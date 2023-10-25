@@ -6,6 +6,8 @@ concurrency:
 
 on:
   pull_request:
+    branches-ignore:
+      - skip-ci/**
   merge_group:
 
 defaults:
